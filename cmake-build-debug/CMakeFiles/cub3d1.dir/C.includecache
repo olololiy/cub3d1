@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/vfurr/workplace/cub3d1/ft_atoi.c
+lib.h
+/Users/vfurr/workplace/cub3d1/lib.h
+
+/Users/vfurr/workplace/cub3d1/lib.h
+sys/types.h
+-
+string.h
+-
+sys/uio.h
+-
+unistd.h
+-
+fcntl.h
+-
+stdlib.h
+-
+
