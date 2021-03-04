@@ -1,7 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cub3d1.dir/ft_atoi.c.o"
-  "CMakeFiles/cub3d1.dir/ft_isalpha.c.o"
-  "CMakeFiles/cub3d1.dir/ft_strchr.c.o"
   "CMakeFiles/cub3d1.dir/get_next_line.c.o"
   "CMakeFiles/cub3d1.dir/main.c.o"
   "CMakeFiles/cub3d1.dir/parser.c.o"

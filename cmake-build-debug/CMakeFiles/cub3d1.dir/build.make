@@ -116,53 +116,11 @@ CMakeFiles/cub3d1.dir/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d1.dir/get_next_line.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vfurr/workplace/cub3d1/get_next_line.c -o CMakeFiles/cub3d1.dir/get_next_line.c.s
 
-CMakeFiles/cub3d1.dir/ft_isalpha.c.o: CMakeFiles/cub3d1.dir/flags.make
-CMakeFiles/cub3d1.dir/ft_isalpha.c.o: ../ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vfurr/workplace/cub3d1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/cub3d1.dir/ft_isalpha.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d1.dir/ft_isalpha.c.o   -c /Users/vfurr/workplace/cub3d1/ft_isalpha.c
-
-CMakeFiles/cub3d1.dir/ft_isalpha.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d1.dir/ft_isalpha.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vfurr/workplace/cub3d1/ft_isalpha.c > CMakeFiles/cub3d1.dir/ft_isalpha.c.i
-
-CMakeFiles/cub3d1.dir/ft_isalpha.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d1.dir/ft_isalpha.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vfurr/workplace/cub3d1/ft_isalpha.c -o CMakeFiles/cub3d1.dir/ft_isalpha.c.s
-
-CMakeFiles/cub3d1.dir/ft_strchr.c.o: CMakeFiles/cub3d1.dir/flags.make
-CMakeFiles/cub3d1.dir/ft_strchr.c.o: ../ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vfurr/workplace/cub3d1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/cub3d1.dir/ft_strchr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d1.dir/ft_strchr.c.o   -c /Users/vfurr/workplace/cub3d1/ft_strchr.c
-
-CMakeFiles/cub3d1.dir/ft_strchr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d1.dir/ft_strchr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vfurr/workplace/cub3d1/ft_strchr.c > CMakeFiles/cub3d1.dir/ft_strchr.c.i
-
-CMakeFiles/cub3d1.dir/ft_strchr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d1.dir/ft_strchr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vfurr/workplace/cub3d1/ft_strchr.c -o CMakeFiles/cub3d1.dir/ft_strchr.c.s
-
-CMakeFiles/cub3d1.dir/ft_atoi.c.o: CMakeFiles/cub3d1.dir/flags.make
-CMakeFiles/cub3d1.dir/ft_atoi.c.o: ../ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vfurr/workplace/cub3d1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/cub3d1.dir/ft_atoi.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d1.dir/ft_atoi.c.o   -c /Users/vfurr/workplace/cub3d1/ft_atoi.c
-
-CMakeFiles/cub3d1.dir/ft_atoi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d1.dir/ft_atoi.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vfurr/workplace/cub3d1/ft_atoi.c > CMakeFiles/cub3d1.dir/ft_atoi.c.i
-
-CMakeFiles/cub3d1.dir/ft_atoi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d1.dir/ft_atoi.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vfurr/workplace/cub3d1/ft_atoi.c -o CMakeFiles/cub3d1.dir/ft_atoi.c.s
-
 # Object files for target cub3d1
 cub3d1_OBJECTS = \
 "CMakeFiles/cub3d1.dir/main.c.o" \
 "CMakeFiles/cub3d1.dir/parser.c.o" \
-"CMakeFiles/cub3d1.dir/get_next_line.c.o" \
-"CMakeFiles/cub3d1.dir/ft_isalpha.c.o" \
-"CMakeFiles/cub3d1.dir/ft_strchr.c.o" \
-"CMakeFiles/cub3d1.dir/ft_atoi.c.o"
+"CMakeFiles/cub3d1.dir/get_next_line.c.o"
 
 # External object files for target cub3d1
 cub3d1_EXTERNAL_OBJECTS =
@@ -170,12 +128,10 @@ cub3d1_EXTERNAL_OBJECTS =
 cub3d1: CMakeFiles/cub3d1.dir/main.c.o
 cub3d1: CMakeFiles/cub3d1.dir/parser.c.o
 cub3d1: CMakeFiles/cub3d1.dir/get_next_line.c.o
-cub3d1: CMakeFiles/cub3d1.dir/ft_isalpha.c.o
-cub3d1: CMakeFiles/cub3d1.dir/ft_strchr.c.o
-cub3d1: CMakeFiles/cub3d1.dir/ft_atoi.c.o
 cub3d1: CMakeFiles/cub3d1.dir/build.make
+cub3d1: /Users/vfurr/workplace/libft/libft.a
 cub3d1: CMakeFiles/cub3d1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vfurr/workplace/cub3d1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable cub3d1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vfurr/workplace/cub3d1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable cub3d1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cub3d1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

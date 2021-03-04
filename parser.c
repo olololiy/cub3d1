@@ -9,8 +9,38 @@
 
 int ft_resolution(char *line, t_config *config)
 {
-	//char *height;
-	config->r_weight = ft_atoi(line + 1, config);
+	//skip space
+	int count;
+	//int a;
+
+	count = 0;
+	line++;
+	while (*line == ' ')
+		line++;
+	//if(ft_isdigit(*line))
+	config->r_weight = ft_atoi(line);
+	//else
+	//	return (-1);
+	//a = line;
+	while (ft_isdigit(*line))
+	{
+		line++;
+		count++;
+	}
+	//if (count > 4)
+	//	return (-1);
+	while (*line == ' ')
+		line++;
+	//ft_isdigit(5);
+	config->r_height = ft_atoi(line);
+
+	//isdigit yes=atoi no=error
+	//while count isdigit
+	// ifcount digit >5 errror
+	// skip space
+	// isdigit yes=atoi no=error \0 ?
+	// skip space else error
+	//config->r_height = ft_atoi(line + 1, config);
 	//int weight
 
 
@@ -18,15 +48,26 @@ int ft_resolution(char *line, t_config *config)
 	//начинаем пытаться
 }
 
+int ft_texture(char *line, t_config *config)
+{
+	//char *b;
+	line++;
+	if (*line != 'O')
+		return (-1);
+	line++;
+
+	config->no_texture = ft_strtrim(line, " ");
+	return (0);
+}
+
 int ch_config2(char *line, t_config *config)
 {
 	//while(**line != '0' && **line != '1' && **line != ' ')
 
-
 		if(*line == 'R')
 			ft_resolution(line, config); //ft_r тут мы напишем функцию разрешения.
 		else if(*line == 'N')
-			;
+			ft_texture(line, config);
 		else if(*line == 'S')
 			;
 		else if(*line == 'W')
@@ -73,7 +114,7 @@ int		ft_isalpha(int c)
 */
 int ch_config1(char *line, t_config *config)
 {
-	if (ft_strchr("RNSWESFC \n", *line))
+	if (ft_strchr("RNSWESFC ", *line))
 	{
 		if (ft_isalpha(*line))
 		{

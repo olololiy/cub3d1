@@ -143,87 +143,6 @@ cub3d1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cub3d1.dir/build.make CMakeFiles/cub3d1.dir/build
 .PHONY : cub3d1/fast
 
-ft_atoi.o: ft_atoi.c.o
-
-.PHONY : ft_atoi.o
-
-# target to build an object file
-ft_atoi.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cub3d1.dir/build.make CMakeFiles/cub3d1.dir/ft_atoi.c.o
-.PHONY : ft_atoi.c.o
-
-ft_atoi.i: ft_atoi.c.i
-
-.PHONY : ft_atoi.i
-
-# target to preprocess a source file
-ft_atoi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cub3d1.dir/build.make CMakeFiles/cub3d1.dir/ft_atoi.c.i
-.PHONY : ft_atoi.c.i
-
-ft_atoi.s: ft_atoi.c.s
-
-.PHONY : ft_atoi.s
-
-# target to generate assembly for a file
-ft_atoi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cub3d1.dir/build.make CMakeFiles/cub3d1.dir/ft_atoi.c.s
-.PHONY : ft_atoi.c.s
-
-ft_isalpha.o: ft_isalpha.c.o
-
-.PHONY : ft_isalpha.o
-
-# target to build an object file
-ft_isalpha.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cub3d1.dir/build.make CMakeFiles/cub3d1.dir/ft_isalpha.c.o
-.PHONY : ft_isalpha.c.o
-
-ft_isalpha.i: ft_isalpha.c.i
-
-.PHONY : ft_isalpha.i
-
-# target to preprocess a source file
-ft_isalpha.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cub3d1.dir/build.make CMakeFiles/cub3d1.dir/ft_isalpha.c.i
-.PHONY : ft_isalpha.c.i
-
-ft_isalpha.s: ft_isalpha.c.s
-
-.PHONY : ft_isalpha.s
-
-# target to generate assembly for a file
-ft_isalpha.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cub3d1.dir/build.make CMakeFiles/cub3d1.dir/ft_isalpha.c.s
-.PHONY : ft_isalpha.c.s
-
-ft_strchr.o: ft_strchr.c.o
-
-.PHONY : ft_strchr.o
-
-# target to build an object file
-ft_strchr.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cub3d1.dir/build.make CMakeFiles/cub3d1.dir/ft_strchr.c.o
-.PHONY : ft_strchr.c.o
-
-ft_strchr.i: ft_strchr.c.i
-
-.PHONY : ft_strchr.i
-
-# target to preprocess a source file
-ft_strchr.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cub3d1.dir/build.make CMakeFiles/cub3d1.dir/ft_strchr.c.i
-.PHONY : ft_strchr.c.i
-
-ft_strchr.s: ft_strchr.c.s
-
-.PHONY : ft_strchr.s
-
-# target to generate assembly for a file
-ft_strchr.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cub3d1.dir/build.make CMakeFiles/cub3d1.dir/ft_strchr.c.s
-.PHONY : ft_strchr.c.s
-
 get_next_line.o: get_next_line.c.o
 
 .PHONY : get_next_line.o
@@ -314,15 +233,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cub3d1"
-	@echo "... ft_atoi.o"
-	@echo "... ft_atoi.i"
-	@echo "... ft_atoi.s"
-	@echo "... ft_isalpha.o"
-	@echo "... ft_isalpha.i"
-	@echo "... ft_isalpha.s"
-	@echo "... ft_strchr.o"
-	@echo "... ft_strchr.i"
-	@echo "... ft_strchr.s"
 	@echo "... get_next_line.o"
 	@echo "... get_next_line.i"
 	@echo "... get_next_line.s"

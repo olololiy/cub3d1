@@ -4,6 +4,7 @@
 # include <unistd.h>
 # include <fcntl.h>
 # include <stdlib.h>
+# include "../libft/libft.h"
 //# include "libft1/libft.h"
 //# include "get_next_line.h"
 
@@ -20,6 +21,7 @@ typedef struct	s_config
 	int		count_conf;
 	int		r_weight;
 	int		r_height;
+	char 	*no_texture;
 }				t_config;
 
 
@@ -31,9 +33,10 @@ typedef struct	s_list
 }				t_list;
 int		get_next_line(int fd, char **line);
 int parser(t_config *config);
-int				ft_atoi(const	char *str, t_config *config);
-int		ft_isalpha(int c);
-void	*ft_strchr(const void *s, int c);
+//int				ft_atoi(const	char *str, t_config *config);
+//int		ft_isalpha(int c);
+//void	*ft_strchr(const void *s, int c);
+//int		ft_isdigit(int c);
 //void	ft_lstadd_back(t_list **alst, t_list *new);
 //void	ft_putchar(char c);
 //void		ft_putstr(char  *str);

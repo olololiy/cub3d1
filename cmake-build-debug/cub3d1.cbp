@@ -78,19 +78,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/vfurr/workplace/cub3d1/ft_atoi.c">
-			<Option target="cub3d1"/>
-		</Unit>
-		<Unit filename="/Users/vfurr/workplace/cub3d1/ft_isalpha.c">
-			<Option target="cub3d1"/>
-		</Unit>
-		<Unit filename="/Users/vfurr/workplace/cub3d1/ft_strchr.c">
-			<Option target="cub3d1"/>
-		</Unit>
 		<Unit filename="/Users/vfurr/workplace/cub3d1/get_next_line.c">
 			<Option target="cub3d1"/>
 		</Unit>
 		<Unit filename="/Users/vfurr/workplace/cub3d1/get_next_line.h">
+			<Option target="cub3d1"/>
+		</Unit>
+		<Unit filename="/Users/vfurr/workplace/cub3d1/libft.a">
 			<Option target="cub3d1"/>
 		</Unit>
 		<Unit filename="/Users/vfurr/workplace/cub3d1/main.c">
