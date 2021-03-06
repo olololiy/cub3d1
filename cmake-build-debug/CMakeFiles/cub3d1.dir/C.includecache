@@ -6,19 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/vfurr/workplace/cub3d1/get_next_line.c
-get_next_line.h
-/Users/vfurr/workplace/cub3d1/get_next_line.h
-lib.h
-/Users/vfurr/workplace/cub3d1/lib.h
-
-/Users/vfurr/workplace/cub3d1/get_next_line.h
-stdlib.h
--
-unistd.h
--
-
-/Users/vfurr/workplace/cub3d1/lib.h
+/Users/vfurr/workplace/cub3d11/lib.h
 sys/types.h
 -
 string.h
@@ -34,13 +22,9 @@ stdlib.h
 ../libft/libft.h
 /Users/vfurr/workplace/libft/libft.h
 
-/Users/vfurr/workplace/cub3d1/main.c
+/Users/vfurr/workplace/cub3d11/parser.c
 lib.h
-/Users/vfurr/workplace/cub3d1/lib.h
-
-/Users/vfurr/workplace/cub3d1/parser.c
-lib.h
-/Users/vfurr/workplace/cub3d1/lib.h
+/Users/vfurr/workplace/cub3d11/lib.h
 
 /Users/vfurr/workplace/libft/libft.h
 stdio.h

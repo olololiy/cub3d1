@@ -18,10 +18,17 @@ typedef struct	s_config
 	int 	s;
 	int 	f;
 	int 	c;
+	int		R;
+	int 	G;
+	int 	B;
 	int		count_conf;
 	int		r_weight;
 	int		r_height;
 	char 	*no_texture;
+	char 	*so_texture;
+	char 	*wo_texture;
+	char 	*eo_texture;
+	char 	*sprite_texture;
 }				t_config;
 
 

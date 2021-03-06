@@ -19,7 +19,7 @@ t_config		ft_init_config(void)
 
 int main(int argc, char **argv)
 {
-	//int fd = open("/Users/vfurr/workplace/cub3d1/map.cub", O_RDONLY);
+	//int fd = open("/Users/vfurr/workplace/cub3d11/map.cub", O_RDONLY);
 	//char *line = NULL;
 	t_config config;
 
