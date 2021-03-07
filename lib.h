@@ -10,7 +10,7 @@
 
 typedef struct	s_config
 {
-	int		r;
+	int		resolution;
 	int 	no;
 	int 	so;
 	int		we;
@@ -18,9 +18,9 @@ typedef struct	s_config
 	int 	s;
 	int 	f;
 	int 	c;
-	int		R;
-	int 	G;
-	int 	B;
+	int		r;
+	int 	g;
+	int 	b;
 	int		count_conf;
 	int		r_weight;
 	int		r_height;
